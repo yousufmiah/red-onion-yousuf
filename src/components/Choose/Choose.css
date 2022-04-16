@@ -1,0 +1,10 @@
+.choose-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.choose-item img{
+height: 450px;
+width: 350px;
+}

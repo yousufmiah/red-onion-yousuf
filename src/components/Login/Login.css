@@ -1,0 +1,20 @@
+
+.neo{
+    border: 1px solid lightblue;
+    padding: 20px;
+    border-radius: 19px;
+    background: #e0e0e0;
+    box-shadow:  10px 10px 20px #b1b1b1,
+                 -10px -10px 20px #ffffff;
+}
+.form-container input{
+   width: 100%;
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bg-color{
+    background-color: #FCF4E0;
+}

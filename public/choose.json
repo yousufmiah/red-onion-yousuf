@@ -1,0 +1,20 @@
+[
+{
+    "id":"choose1",
+    "name":"Fast Delivery",
+    "img":"./images/blur-close-up-dairy-product-376464.png",
+    "description": " Kepp your systems in sync with automated web hook based notifications each time link is paid and how we dream about out future."
+},
+{
+    "id":"choose2",
+    "name":"A Good Auto Responder",
+    "img":"./images/chef-cook-food-33614.png",
+    "description":" Kepp your systems in sync with automated web hook based notifications each time link is paid and how we dream about out future."
+},
+{
+    "id":"choose3",
+    "name":"Home Delivery",
+    "img":"./images/architecture-building-city-2047397.png",
+    "description": "Kepp your systems in sync with automated web hook based notifications each time link is paid and how we dream about out future."
+}
+]

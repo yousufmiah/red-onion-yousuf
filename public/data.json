@@ -1,0 +1,128 @@
+ [
+    {
+        "id":"breakfast1",
+        "name":"Bagel and cream cheese",
+        "description": "How we dream about out future",
+        "img":"./images/breakfast/breakfast1.png",
+        "price": "$6.99"
+    },
+    {
+        "id":"breakfast2",
+        "name":"Breakfast Sandwich",
+        "description": "How we dream about out future",
+        "img":"./images/breakfast/breakfast2.png",
+        "price": "$9.99"
+    },
+    {
+        "id":"breakfast3",
+        "name":"Baked Chicken",
+        "description": "How we dream about out future",
+        "img":"./images/breakfast/breakfast3.png",
+        "price": "$10.99"
+    },
+    {
+        "id":"breakfast4",
+        "name":"Eggs Benedict",
+        "description": "How we dream about out future",
+        "img":"./images/breakfast/breakfast4.png",
+        "price": "$8.99"
+    },
+    {
+        "id":"breakfast5",
+        "name":"Toast Croissant Fried egg",
+        "description": "How we dream about out future",
+        "img":"./images/breakfast/breakfast5.png",
+        "price": "$19.99"
+    },
+    {
+        "id":"breakfast6",
+        "name":"Full Breakfast Fried Egg Brunch",
+        "description": "How we dream about out future",
+        "img":"./images/breakfast/breakfast6.png",
+        "price": "$3.99"
+    },
+    {
+        "id":"lunch1",
+        "name":"Healthy Meal Plan",
+        "description": "How we dream about out future",
+        "img":"./images/lunch/lunch1.png",
+        "price": "$23.99"
+    },
+    {
+        "id":"lunch2",
+        "name":"Fried Chicken Bento",
+        "description": "How we dream about out future",
+        "img":"./images/lunch/lunch2.png",
+        "price": "$9.99"
+    },
+    {
+        "id":"lunch3",
+        "name":"Tarragon-Rubbed-Salmon",
+        "description": "How we dream about out future",
+        "img":"./images/lunch/lunch3.png",
+        "price": "$6.99"
+    },
+    {
+        "id":"lunch4",
+        "name":"Indian Lunch",
+        "description": "How we dream about out future",
+        "img":"./images/lunch/lunch4.png",
+        "price": "$8.99"
+    },
+    {
+        "id":"lunch5",
+        "name":"Beef Steak",
+        "description": "How we dream about out future",
+        "img":"./images/lunch/lunch5.png",
+        "price": "$15.99"
+    },
+    {
+        "id":"lunch6",
+        "name":"Honey-Soy-Glazed Salmon with Peppers",
+        "description": "How we dream about out future",
+        "img":"./images/lunch/lunch6.png",
+        "price": "$7.99"
+    },
+    {
+        "id":"Dinner1",
+        "name":"Salmon with Grapefruit and Lentil Salad",
+        "description": "How we dream about out future",
+        "img":"./images/Dinner/Dinner1.png",
+        "price": "$9.99"
+    },
+    {
+        "id":"Dinner2",
+        "name":"Lemony Salmon Piccata",
+        "description": "How we dream about out future",
+        "img":"./images/Dinner/Dinner2.png",
+        "price": "$10.99"
+    },
+    {
+        "id":"Dinner3",
+        "name":"Pork Tenderloin With Quinoa Pilaf",
+        "description": "How we dream about out future",
+        "img":"./images/Dinner/Dinner3.png",
+        "price": "$12.99"
+    },
+    {
+        "id":"Dinner4",
+        "name":"French fries with cheese",
+        "description": "How we dream about out future",
+        "img":"./images/Dinner/Dinner4.png",
+        "price": "$8.99"
+    },
+    {
+        "id":"Dinner5",
+        "name":"Garlic Butter Baked Salmon",
+        "description": "How we dream about out future",
+        "img":"./images/Dinner/Dinner5.png",
+        "price": "$6.99"
+    },
+    {
+        "id":"Dinner6",
+        "name":"Baked Chicken",
+        "description": "How we dream about out future",
+        "img":"./images/Dinner/Dinner6.png",
+        "price": "$9.99"
+    }    
+]
