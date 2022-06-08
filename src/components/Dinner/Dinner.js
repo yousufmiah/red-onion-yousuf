@@ -1,19 +1,22 @@
 import React, { useEffect, useState } from "react";
-import DinnerItem from "../DinnerItem/DinnerItem";
+import Details from "../Details/Details";
 import "./Dinner.css";
 
 const Dinner = () => {
-  const { dinner, setDinner } = useState([]);
+  const [Dinners, setDinners] = useState([]);
   useEffect(() => {
     fetch("dinner.json")
       .then((res) => res.json())
-      .then((data) => setDinner(data));
+      .then((data) => setDinners(data));
   }, []);
+
   return (
-    <div>
-      {dinner.map((item) => (
-        <DinnerItem item={item} key={item.id}></DinnerItem>
-      ))}
+    <div className="mt-5">
+      <div className="col product-grid">
+        {Dinners.map((item) => (
+          <Details item={item} key={item.id}></Details>
+        ))}
+      </div>
     </div>
   );
 };

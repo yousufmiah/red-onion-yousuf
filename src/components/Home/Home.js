@@ -1,15 +1,20 @@
 import React from "react";
 import "./Home.css";
-import banner from "../Assets/images/bannerbackground.png";
-import Footer from "../Footer/Footer";
-import Choose from "../Choose/Choose";
-import Products from "../Products/Products";
-import Breakfast from "../Breakfast/Breakfast";
+import Menu from "../Home/Menu/Menu";
+import Banner from "./Banner/Banner";
+import CheckOut from "./CheckOut/CheckOut";
 
 const Home = () => {
   return (
     <div>
-      <div
+      <Banner></Banner>
+      <Menu></Menu>
+      <CheckOut></CheckOut>
+    </div>
+
+    // <div>
+
+    /* <div
         style={{ backgroundImage: `url(${banner})`, height: "500px" }}
         className=" flex-column align-items-center d-flex justify-content-center home-color"
       >
@@ -42,11 +47,10 @@ const Home = () => {
       </div>
       <div className="container">
         <Products></Products>
-        {/* <Breakfast></Breakfast> */}
+        <Breakfast></Breakfast>
         <Choose></Choose>
-      </div>
-      <Footer></Footer>
-    </div>
+      </div> */
+    // </div>
   );
 };
 

@@ -1,17 +1,23 @@
-import React from "react";
-import useData from "../Hook/useData";
+import React, { useEffect, useState } from "react";
+
 import Details from "../Details/Details";
 import "./Breakfast.css";
 
 const Breakfast = () => {
-  const [breakfast] = useData();
+  const [breakfasts, setBreakfasts] = useState([]);
+  useEffect(() => {
+    fetch("breakfast.json")
+      .then((res) => res.json())
+      .then((data) => setBreakfasts(data));
+  }, []);
 
   return (
-    <div>
-      <h2>breakfast</h2>
-      {breakfast.map((item) => (
-        <Details item={item} key={item.id}></Details>
-      ))}
+    <div className="mt-5">
+      <div className="col product-grid">
+        {breakfasts.map((item) => (
+          <Details item={item} key={item.id}></Details>
+        ))}
+      </div>
     </div>
   );
 };

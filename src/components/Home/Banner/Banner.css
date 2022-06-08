@@ -1,0 +1,18 @@
+.banner {
+    background-image: url("../../Assets/images/bannerbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+   
+       
+  }
+  .banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-form:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  
