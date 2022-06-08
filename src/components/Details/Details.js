@@ -10,9 +10,12 @@ import {
   faShoppingCart,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Details = () => {
+const Details = (props) => {
+  const { img, name, description, price } = props.item;
+
   return (
     <div>
+      <img src={img} alt="" />
       <h2>{name}</h2>
       <p>{description}</p>
       <h5>{price}</h5>

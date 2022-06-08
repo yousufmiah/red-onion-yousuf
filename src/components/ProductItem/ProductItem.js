@@ -8,10 +8,11 @@ const ProductItem = (props) => {
       <img src={img} className="card-img-top " alt="..." />
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
-        <p className="card-text">
+        {/* <p className="card-text">
           <small>{description}</small>
-        </p>
+        </p> */}
         <h5>{price}</h5>
+        <button className="btn btn-primary">Details</button>
       </div>
     </div>
   );

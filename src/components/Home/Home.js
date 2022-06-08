@@ -4,6 +4,7 @@ import banner from "../Assets/images/bannerbackground.png";
 import Footer from "../Footer/Footer";
 import Choose from "../Choose/Choose";
 import Products from "../Products/Products";
+import Breakfast from "../Breakfast/Breakfast";
 
 const Home = () => {
   return (
@@ -41,6 +42,7 @@ const Home = () => {
       </div>
       <div className="container">
         <Products></Products>
+        {/* <Breakfast></Breakfast> */}
         <Choose></Choose>
       </div>
       <Footer></Footer>
