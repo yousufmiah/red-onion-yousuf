@@ -25,7 +25,7 @@ const Header = () => {
           <Nav>
             <FontAwesomeIcon className="cart-icon me-3" icon={faCartShopping} />
 
-            <Link to="/home">
+            <Link to="/">
               <Button className="btn btn-success px-4 me-4">Home</Button>
             </Link>
             {user ? (
