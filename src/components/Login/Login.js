@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Button } from "react-bootstrap";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link, useNavigate } from "react-router-dom";
 import auth from "../../Firebase/Firebase.init";
@@ -12,7 +11,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const [signInWithEmailAndPassword, user, loading, hookerror] =
+  const [signInWithEmailAndPassword, user, loading] =
     useSignInWithEmailAndPassword(auth);
   const navigate = useNavigate();
 

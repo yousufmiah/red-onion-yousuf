@@ -11,7 +11,7 @@ const Dinner = () => {
   }, []);
 
   return (
-    <div className="mt-5">
+    <div className="mt-3">
       <div className="col product-grid">
         {Dinners.map((item) => (
           <Details item={item} key={item.id}></Details>

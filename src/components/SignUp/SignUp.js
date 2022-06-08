@@ -13,7 +13,7 @@ const SignUp = () => {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
 
-  const [createUserWithEmailAndPassword, user, loading, hookerror] =
+  const [createUserWithEmailAndPassword, user, loading] =
     useCreateUserWithEmailAndPassword(auth);
   const navigate = useNavigate();
 
