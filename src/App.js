@@ -37,17 +37,6 @@ function App() {
         <Footer></Footer>
       </ItemsContext.Provider>
     </div>
-    // <div>
-    //   <ItemsContext.Provider value={[items[0], setItems]}>
-    //     <Header></Header>
-    //     <Routes>
-    //       <Route path="/" element={<Home></Home>}></Route>
-    //       <Route path="/home" element={<Home></Home>}></Route>
-    //       <Route path="/login" element={<Login></Login>}></Route>
-    //       <Route path="/signUp" element={<SignUp></SignUp>}></Route>
-    //     </Routes>
-    //   </ItemsContext.Provider>
-    // </div>
   );
 }
 
